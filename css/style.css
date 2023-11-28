@@ -34,6 +34,7 @@
     height: 50px;
     align-items: center;
     gap: 40px;
+    background-color: #255EE9;
   }
 
   .link {
@@ -80,7 +81,7 @@
   height: 390px;
   margin: 40px auto;
 }
-
+/*TITLE*/
 .main-title{
   color: white;
   font-size: 40px;
@@ -93,12 +94,13 @@
   font-size: 20px;
   line-height: 33px;
 }
-
+/*BUTTON*/
 .button {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
   font-size: large;
+  margin-inline: 100px;
 }
 
 .button-download {
@@ -113,4 +115,75 @@
   background-color: #23272A;
   padding: 15px 20px;
   border-radius: 30px;
+}
+
+/*BOX*/
+.box{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.box-container{
+  display: flex;
+  width: 70%;
+}
+
+.img-study-group{
+  width: 60%;
+  margin: 40px auto;
+}
+
+.second-box-text{
+  width: 40%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-box {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.p-box {
+  line-height: 26px;
+  font-weight: 600;
+}
+
+/* INVERSE-BOX */
+.inverse-box{
+  display: flex;
+  background-color: #F6F6F6;
+  justify-content: center;
+}
+
+.inverse-box-container{
+  display: flex;
+  width: 80%;
+}
+
+.inverse-box-text{
+  display: flex;
+  width: 40%;
+  margin: 40px auto;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.inverse-text{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.inverse-paragraph{
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.img-just-chillin{
+  width: 60%;
+  margin: 40px auto;
 }
