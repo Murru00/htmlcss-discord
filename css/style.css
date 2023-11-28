@@ -28,21 +28,26 @@
   }
 
   .header > .container > .header__link {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    height: 50px;
-    align-items: center;
-    gap: 40px;
-    background-color: #255EE9;
+   display: flex;
+   min-width: 50%;
+   justify-content: center;
+   align-items: center;
+    
+  
   }
 
   .link {
     color: white;
+    padding: 0 15px;
+    text-align: center;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
   }
+
+  .header > .container > .header__logo{
+    align-items: flex-start;
+    
+
+}
 
   header > .container > .header__button {
     display: flex;
@@ -186,4 +191,38 @@
 .img-just-chillin{
   width: 60%;
   margin: 40px auto;
+}
+/*CLONE-BOX*/
+.clone-box{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.container-clone-box{
+  display: flex;
+  width: 80%;
+}
+
+.img-clone-box{
+  width: 60%;
+  margin: 40px auto;
+}
+
+.clone-text-box{
+  display: flex;
+  width: 40%;
+  margin: 40px auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clone-title{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.clone-paragraph{
+  line-height: 26px;
+  font-weight: 600;
 }
